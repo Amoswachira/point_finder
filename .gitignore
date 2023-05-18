@@ -1,0 +1,34 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore package dependencies managed by pipenv or poetry
+Pipfile.lock
+poetry.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
